@@ -36,5 +36,5 @@ async function raspado_web(tabla,busqueda,n_paginas){
 
     return "datos recoletados"
 }
-
+raspado_web("tabla","busqueda",1)
 module.exports= raspado_web;
